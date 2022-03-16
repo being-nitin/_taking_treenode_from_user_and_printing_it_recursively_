@@ -22,6 +22,7 @@ public class Treeuse {
         }
         return root;
     }
+    // this function will print the root and corresponding nodes of tree.
     public static void print(TreeNode<Integer> root){
         String s = root.data + ":";
         for(int i=0;i<root.children.size();i++){
