@@ -18,6 +18,7 @@ public class Treeuse {
         childCount = sc.nextInt();
         for(int i=0;i<childCount;i++){
             TreeNode<Integer> child = takeInput();
+            // root of a subtree will be the child of a root node.
             root.children.add(child);
         }
         return root;
